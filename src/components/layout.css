@@ -1,4 +1,51 @@
-html {
+:root{
+  --mainBrown: #2d1ef1;
+  --mainWhite: #ffffff;
+  --mainDark: #222;
+  --mainGrey: #ece8dc;
+  --mainYellow: #ff9e09;
+}
+
+body{
+  background: var(--mainWhite);
+  color : var(--mainDrak);
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Courier New', Courier, monospace!important;
+  letter-spacing: 0.25rem !important;
+}
+.text-yellow{
+  color: var(--mainYellow);
+}
+.cart-icon{
+  cursor: pointer;
+  color: var(--mainYellow);
+  font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -619,4 +666,4 @@ pre tt:after {
   html {
     font-size: 100%;
   }
-}
+} */
