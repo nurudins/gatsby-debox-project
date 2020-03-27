@@ -20,10 +20,10 @@ export default class Footer extends Component {
                
                <div className="container">
       <div className="copyright">
-        &copy; Copyright <strong><span>Moderna</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>ISEA - DEBOX INDONESIA</span></strong>. All Rights Reserved
       </div>
       <div className="credits">
-         <a href="https://bootstrapmade.com/">BootstrapMade</a>
+         <a href="https://inhuaschool.com/">BootstrapMade</a>
       </div>
     </div>
 </footer>
