@@ -9,7 +9,7 @@ export default class services extends Component {
         <main id="main">
           <section className="breadcrumbs">
             <div className="container">
-              <div class="d-flex justify-content-between align-items-center">
+              <div className="d-flex justify-content-between align-items-center">
                 <h2>Services</h2>
 
                 <ol>
