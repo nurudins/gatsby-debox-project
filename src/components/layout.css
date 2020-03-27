@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 /*--------------------------------------------------------------
@@ -2203,6 +2204,9 @@ section {
 }
 
 /* :root{
+=======
+:root{
+>>>>>>> b924f0cf4a4a1f397ee9b7b4f43335296d2036fe
   --mainBrown: #2d1ef1;
   --mainWhite: #ffffff;
   --mainDark: #222;
@@ -2216,7 +2220,12 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 h1,h2,h3,h4,h5,h6{
+<<<<<<< HEAD
   font-family: 
+=======
+  font-family: 'Courier New', Courier, monospace!important;
+  letter-spacing: 0.25rem !important;
+>>>>>>> b924f0cf4a4a1f397ee9b7b4f43335296d2036fe
 }
 .text-yellow{
   color: var(--mainYellow);
@@ -2225,7 +2234,11 @@ h1,h2,h3,h4,h5,h6{
   cursor: pointer;
   color: var(--mainYellow);
   font-size: 2rem;
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> b924f0cf4a4a1f397ee9b7b4f43335296d2036fe
 
 
 

@@ -11,10 +11,14 @@ import "../assets/vendor/venobox/venobox.css"
 import "../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
 import "../assets/vendor/aos/aos.css"
 import "./layout.css"
+<<<<<<< HEAD
 // import "../assets/css/style.css"
 
 
 // import "./bootstrap.min.css"
+=======
+import "./bootstrap.min.css"
+>>>>>>> b924f0cf4a4a1f397ee9b7b4f43335296d2036fe
 import Navbar from './Globals/Navbar'
 
 const Layout = ({ children }) => 
