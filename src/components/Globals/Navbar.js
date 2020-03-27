@@ -51,10 +51,10 @@ export default class Navbar extends Component {
   }
   render() {
     return (
-      <header id="header" class="fixed-top">
-        <div class="container">
-          <div class="logo float-left">
-            <h1 class="text-light">
+      <header id="header" className="fixed-top">
+        <div className="container">
+          <div className="logo float-left">
+            <h1 className="text-light">
               <a href="index.html">
                 <span>Inhuaschool</span>
               </a>
@@ -62,17 +62,18 @@ export default class Navbar extends Component {
             {/* <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>--> */}
           </div>
 
-          <nav class="nav-menu float-right d-none d-lg-block">
+          <nav className="nav-menu float-right d-none d-lg-block">
             <ul>
               {
                   this.state.links.map(link => {
                     return(
-                    <Link to={link.path} className="menu-link"><li key={link.id}>{link.text}</li></Link>
+                    <Link key={link.id} to={link.path} className="menu-link"><li key={link.id}>{link.text}</li></Link>
                     );
                   })
               }
             </ul>
           </nav>
+          <button type="button" className="mobile-nav-toggle d-lg-none"><i className="bx bx-menu"></i></button>
         </div>
       </header>
     )
